@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('front', 'FRONTController');
+
+Route::get('about', 'FRONTController@about');
+Route::get('contact', 'FRONTController@contact');
