@@ -16,6 +16,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- font-awesome icons -->
 <link href="{{url('csa/css/font-awesome.css')}}" rel="stylesheet">
 <!-- //font-awesome icons -->
+<link rel="icon" type="image/png" href="{{url('csa/logo/csa.png')}}">
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
@@ -42,15 +43,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="container">
 					<div class="w3-header-top-grids">
 						<div class="w3-header-top-left">
-							<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +1 234 567 8901</p>
+							<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +62 21 6617005</p>
 						</div>
 						<div class="w3-header-top-right">
 							<div class="agileinfo-social-grids">
 								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-rss"></i></a></li>
-									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+									<li><div id="google_translate_element"></div><script type="text/javascript">
+									function googleTranslateElementInit() {
+									  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+									}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
+									<li><a target="_blank" href="https://www.facebook.com/mutuindonesia/"><i style="font-size: 2em;" class="fa fa-facebook"></i></a></li>
+									<li><a target="_blank" href="https://www.instagram.com/mutu.indonesia/"><i style="font-size: 2em;" class="fa fa-instagram"></i></a></li>
 								</ul>
 							</div>
 							<div class="clearfix"> </div>
@@ -71,7 +74,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<span class="icon-bar"></span>
 							  </button>
 								 <div class="navbar-brand logo ">
-									<h1><a href="index.html">Interior <span>Style</span></a></h1>
+									<a href="{{url('/')}}"><img class="navbar-logo" src="{{url('csa/logo/csa1.png')}}" alt=""></a>
+									<!-- <h1><a href="index.html">Interior <span>Style</span></a></h1> -->
 								</div>
 
 							</div>
@@ -80,17 +84,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							 <ul class="nav navbar-nav link-effect-4">
 								<li><a href="{{url('/')}}">Home</a> </li>
-								<li class="active"><a href="{{url('about')}}">About </a> </li>
-								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="{{url('about')}}">About </a> </li>
+								<!-- <li><a href="gallery.html">Gallery</a></li> -->
 								<li class="dropdown">
 									<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Brands <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="www.mutuindonesia.com">MUTU</a></li>
-										<li><a href="codes.html">FOMAC</a></li>
-                    <li><a href="codes.html">POWERPACK</a></li>
-                    <li><a href="codes.html">DREMAX</a></li>
-                    <li><a href="codes.html">AUTATA</a></li>
-                    <li><a href="codes.html">AECOE</a></li>
+										<li><a href="http://mutuindonesia.com" target="_blank">MUTU</a></li>
+										<li><a href="#">FOMAC</a></li>
+                    <li><a href="#">POWERPACK</a></li>
+                    <li><a href="#">DREMAX</a></li>
+                    <li><a href="#">AUTATA</a></li>
+                    <li><a href="#">AECOE</a></li>
 									</ul>
 								</li>
 								<li><a href="{{url('contact')}}">Contact</a></li>
@@ -110,36 +114,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>History of Us</h4>
-					<p>Pellentesque urna ex, ultricies a nunc at, pretium maximus nisi. Vestibulum non auctor diam. Mauris eget consectetur mauris. <span>Aenean leo elit, accumsan vel elit vitae, mattis ultricies lacus. Cras consectetur justo lorem, sed dictum sapien eleifend at.</span></p>
+					<p>PT Catureka Suwarna Abadi is a subsidiary of PT Putra Chandra Sentosa who has been engaged in food processing and packaging machinery since 2004. <span>With professional management, PT Catureka Suwarna Abadi has grown into one of the largest companies engaged in the food processing and packaging industry in Indonesia.</span><span>Seeing the development of HOREKA's business in Indonesia, Catureka was built in 2015 specifically to serve the needs of the market with the maximum service and professional.</span></p>
 				</div>
 				<div class="col-md-4 agile-footer-grid">
-					<h4>Twitter Posts</h4>
+					<h4>Facebook Page</h4>
 					<ul class="w3agile_footer_grid_list">
-						<li>Ut aut reiciendis voluptatibus maiores <a href="#">http://example.com</a> alias, ut aut reiciendis.
-							<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
-						<li>Itaque earum rerum hic tenetur a sapiente delectus <a href="#">http://mail.com</a> ut aut
-							voluptatibus.<span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmutuindonesia%2F&tabs=timeline&width=340&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=867605666704819" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					</ul>
 				</div>
-				<div class="col-md-2 agile-footer-grid">
-					<h4>Events</h4>
+				<div class="col-md-4 agile-footer-grid">
+					<h4>Instagram Post</h4>
 					<ul>
-						<li>12th Feb <a href="#" data-toggle="modal" data-target="#myModal">Curabitur</a></li>
-						<li>10th Mar <a href="#" data-toggle="modal" data-target="#myModal">Fusce urna</a></li>
-						<li>24th Mar <a href="#" data-toggle="modal" data-target="#myModal">Praesent</a></li>
-						<li>17th Apr <a href="#" data-toggle="modal" data-target="#myModal">Malesuada </a></li>
-						<li>09th May <a href="#" data-toggle="modal" data-target="#myModal">Cum sociis</a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 agile-footer-grid">
-					<h4>Navigation</h4>
-					<ul>
-						<li class="text"><a href="index.html">Home</a></li>
-						<li class="text"><a href="about.html">About</a></li>
-						<li class="text"><a href="icons.html">Icons</a></li>
-						<li class="text"><a href="codes.html">Typography</a></li>
-						<li class="text"><a href="gallery.html">Gallery</a></li>
-						<li class="text"><a href="contact.html">Contact</a></li>
+						<iframe src="//widgets-code.websta.me/w/934d40c13770?ck=MjAxNy0wOC0yMVQwMjo1MTozOC45OTJa" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:auto;height:328px;width:308px;"></iframe> <!-- WEBSTA WIDGETS - widgets.websta.me -->
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -186,7 +172,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<!-- bars-js -->
-	<script src="js/bars.js"></script>
+	<script src="{{url('csa/js/bars.js')}}"></script>
 	<!-- //bars-js -->
 
 </body>

@@ -1,4 +1,5 @@
 @extends('front.master')
+<title>ABOUT | PT CATUREKA SUWARNA ABADI</title>
 @section('content')
 
 <!-- about -->
@@ -8,25 +9,26 @@
 				<h2>About Us</h2>
 				<div class="agileits-border"> </div>
 			</div>
-			<p class="about-w3text">Ut porttitor ut est eu ornare. In metus dui, suscipit at viverra faucibus, accumsan at odio. Duis finibus sollicitudin libero, sed tempor diam euismod sed. Sed interdum odio a finibus gravida. Aliquam tincidunt nisl nec urna euismod, ullamcorper scelerisque magna vulputate.
-			 Duis finibus sollicitudin libero, sed tempor diam euismod sed. Sed interdum odio a finibus gravida. Aliquam tincidunt nisl nec urna euismodl nec.
-			 Duis finibus sollicitudin libero, sed tempor diam euismod sed. Sed interdum odio a finibus gravida. Aliquam tincidunt nisl nec urna euismod, ullamcorper scelerisque magna vulputate.
-			 Duis finibus sollicitudin libero, sed tempor diam euismod sed. Sed interdum odio a finibus gravida. Aliquam tincidunt nisl nec urna euismodl nec.</p>
+			<p class="about-w3text">PT Catureka Suwarna Abadi is a subsidiary of PT Putra Chandra Sentosa who has been engaged in food processing and packaging machinery since 2004. With professional management, PT Catureka Suwarna Abadi has grown into one of the largest companies engaged in the food processing and packaging industry in Indonesia. Seeing the development of HOREKA's business in Indonesia, Catureka was built in 2015 specifically to serve the needs of the market with the maximum service and professional.</p>
 			<div class="services-row-agileinfo">
 				<div class="col-sm-4 col-xs-4 services-w3grid">
+					<span class="glyphicon glyphicon-leaf hi-icon" aria-hidden="true"></span>
+					<h5>Vision</h5>
+					<p>Aims to be at the forefront of serving the needs of the culinary industry of hotels, restaurants, cafes and packers in Indonesia.</p>
+				</div>
+				<div class="col-sm-4 col-xs-4 services-w3grid">
 					<span class="glyphicon glyphicon-heart hi-icon" aria-hidden="true"></span>
-					<h5>Cum soluta nobis</h5>
-					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+					<h5>Culture Value</h5>
+					<p>Integritas</p>
+					<p>Kami melayani dengan hati dan berprinsip melakukan yang terbaik untuk kepuasan pelanggan dan pertumbuhan perusahaan</p>
+					<p>Profesional</p>
+					<p>Kami menanggapi setiap kebutuhan pelanggan dengan cepat, ramah dan tanggung jawab</p>
 				</div>
 				<div class="col-sm-4 col-xs-4 services-w3grid">
 					<span class="glyphicon glyphicon-list-alt hi-icon" aria-hidden="true"></span>
-					<h5>Soluta vum nobis</h5>
-					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
-				</div>
-				<div class="col-sm-4 col-xs-4 services-w3grid">
-					<span class="glyphicon glyphicon-leaf hi-icon" aria-hidden="true"></span>
-					<h5>Nobis cum soluta</h5>
-					<p>Itaque earum rerum hic a sapiente delectus finibus gravida</p>
+					<h5>Mission</h5>
+					<p>Providing high-quality products with maximum service.</p>
+					<p>Helping the culinary business of hotels, restaurants, cafes in Indonesia to achieve success by using products we provide.</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -58,7 +60,7 @@
 			<div class="team-row-agileinfo">
 				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
 					<div class="thumbnail team-agileits">
-						<img src="images/t5.jpg" class="img-responsive" alt=""/>
+						<img src="{{url('csa/images/t5.jpg')}}" class="img-responsive" alt=""/>
 						<div class="w3agile-caption">
 							<h4>Vaura Tegsner</h4>
 							<p>Manager</p>
@@ -72,7 +74,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
 					<div class="thumbnail team-agileits">
-						<img src="images/t6.jpg" class="img-responsive" alt=""/>
+						<img src="{{url('csa/images/t6.jpg')}}" class="img-responsive" alt=""/>
 						<div class="w3agile-caption">
 							<h4>Jark Kohnson</h4>
 							<p>Director</p>
@@ -86,7 +88,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
 					<div class="thumbnail team-agileits">
-						<img src="images/t7.jpg" class="img-responsive" alt=""/>
+						<img src="{{url('csa/images/t7.jpg')}}" class="img-responsive" alt=""/>
 						<div class="w3agile-caption">
 							<h4>Chunk Erson</h4>
 							<p>Worker</p>
@@ -100,7 +102,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 team-grids">
 					<div class="thumbnail team-agileits">
-						<img src="images/t8.jpg" class="img-responsive" alt=""/>
+						<img src="{{url('csa/images/t8.jpg')}}" class="img-responsive" alt=""/>
 						<div class="w3agile-caption">
 							<h4>Goes Mehak</h4>
 							<p>CEO</p>
@@ -128,7 +130,7 @@
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="images/1.jpg" alt=" " class="img-responsive" />
+						<img src="{{url('csa/images/1.jpg')}}" alt=" " class="img-responsive" />
 						<p>Ut enim ad minima veniam, quis nostrum
 							exercitationem ullam corporis suscipit laboriosam,
 							nisi ut aliquid ex ea commodi consequatur? Quis autem

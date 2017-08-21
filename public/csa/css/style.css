@@ -84,6 +84,9 @@ body{
 .agileinfo-social-grids ul li a i.fa.fa-twitter:hover{
 	color: #55acee;
 }
+.agileinfo-social-grids ul li a i.fa.fa-instagram:hover{
+  color: #863cbb;
+}
 .agileinfo-social-grids ul li a i.fa.fa-rss{
 	margin:0 1em 0 0;
 }
@@ -138,7 +141,6 @@ body{
 .navbar-logo{
     max-width: 60%;
     float: left;
-    border-radius: 100%;
     border-color: white;
 }
 div#bs-example-navbar-collapse-1 {
@@ -797,7 +799,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
     padding-left: 0;
 }
 .w3-agileits-bottom-left{
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    /*background: url(../images/2.jpg) no-repeat 0px 0px;*/
     background-size: cover;
     padding: 3em;
 }
@@ -823,13 +825,13 @@ button.btn1:hover i.fa.fa-paper-plane-o{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .w3-agileits-bottom-left-text p{
-    color: #a0a0a0;
+    color: #ffffff;
     font-size: .9em;
     line-height: 1.8em;
     margin: 1em 0 0 0;
 }
 .w3-agileits-bottom-right{
-	background: url(../images/3.jpg) no-repeat 0px 0px !important;
+	/*background: url(../images/3.jpg) no-repeat 0px 0px !important;*/
     background-size: cover !important
 }
 /*-- //banner-bottom --*/

@@ -48,10 +48,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="w3-header-top-right">
 							<div class="agileinfo-social-grids">
 								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-rss"></i></a></li>
-									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+									<li><div id="google_translate_element"></div><script type="text/javascript">
+									function googleTranslateElementInit() {
+									  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+									}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
+									<li><a target="_blank" href="https://www.facebook.com/mutuindonesia/"><i style="font-size: 2em;" class="fa fa-facebook"></i></a></li>
+									<li><a target="_blank" href="https://www.instagram.com/mutu.indonesia/"><i style="font-size: 2em;" class="fa fa-instagram"></i></a></li>
 								</ul>
 							</div>
 							<div class="clearfix"> </div>
@@ -72,22 +74,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<span class="icon-bar"></span>
 							  </button>
 								 <div class="navbar-brand logo">
-									<img class="navbar-logo" src="{{url('csa/logo/csa1.png')}}" alt="">
+									<a href="{{url('/')}}"><img class="navbar-logo" src="{{url('csa/logo/csa1.png')}}" alt=""></a>
 									<!-- <h1><a href="index.html">CATUREKA <span>Suwarna Abadi</span></a></h1> -->
 								</div>
 
 							</div>
-
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							 <ul class="nav navbar-nav link-effect-4">
-							<li class="active"><a href="index.html">Home</a> </li>
+							<li class="active"><a href="{{url('/')}}">Home</a> </li>
 								<li><a href="{{url('about')}}">About </a> </li>
-								<li><a href="gallery.html">Gallery</a></li>
+								<!-- <li><a href="gallery.html">Gallery</a></li> -->
 								<li class="dropdown">
 									<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Brands <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="www.mutuindonesia.com">MUTU</a></li>
+										<li><a href="http://mutuindonesia.com" target="_blank">MUTU</a></li>
 										<li><a href="codes.html">FOMAC</a></li>
                     <li><a href="codes.html">POWERPACK</a></li>
                     <li><a href="codes.html">DREMAX</a></li>
@@ -95,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li><a href="codes.html">AECOE</a></li>
 									</ul>
 								</li>
-								<li><a href="{{url('contact.html')}}">Contact</a></li>
+								<li><a href="{{url('contact')}}">Contact</a></li>
 							  </ul>
 							</div><!-- /.navbar-collapse -->
 					</div>
@@ -108,19 +109,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="rslides callbacks callbacks1" id="slider4">
 								<li>
 									<div class="agileits-banner-info">
-										<h3>Food & Beverage Industry</h3>
-										<p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p>
-										<div class="w3-button">
-											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="agileits-banner-info">
 										<h3>Kitchen & Catering Equipment</h3>
-										<p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p>
+										<!-- <p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p> -->
 										<div class="w3-button">
 											<div class="w3ls-button">
 												<a href="#" data-toggle="modal" data-target="#myModalmutu">More</a>
@@ -131,10 +121,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li>
 									<div class="agileits-banner-info">
 										<h3>Food Processing Machinery</h3>
-										<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius.</p>
+										<!-- <p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius.</p> -->
 										<div class="w3-button">
 											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+												<a href="#" data-toggle="modal" data-target="#myModalprocessing">More</a>
 											</div>
 										</div>
 									</div>
@@ -142,21 +132,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li>
 									<div class="agileits-banner-info">
 										<h3>Packaging Machinery</h3>
-										<p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p>
+										<!-- <p>Etiam ut maximus mauris, eu pretium neque. Donec nibh lectus, blandit id metus non, bibendum dictum quam.</p> -->
 										<div class="w3-button">
 											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="agileits-banner-info">
-										<h3>Kitchen Decoration</h3>
-										<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius.</p>
-										<div class="w3-button">
-											<div class="w3ls-button">
-												<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+												<a href="#" data-toggle="modal" data-target="#myModalpackaging">More</a>
 											</div>
 										</div>
 									</div>
@@ -196,30 +175,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3-heading-grid">
 				<h2>Welcome</h2>
 				<div class="agileits-border"> </div>
-				<p>PT Catureka Suwarna Abadi merupakan anak perusahaan dari PT Putra Chandra Sentosa yang telah bergerak dalam bidang mesin pengolah makanan dan pengemasan sejak tahun 2004. Dengan manajemen yang professional, PT Catureka Suwarna Abadi telah berkembang menjadi salah satu perusahaan terbesar yang bergerak dibidang industri pengolahan makanan dan pengemasan di Indonesia.<br>Melihat perkembangan bisnis HOREKA di Indonesia, Catureka dibangun pada tahun 2015 secara khusus melayani kebutuhan pasar dengan pelayanan maksimal dan professional.</p>
-			</div>
-			<div class="w3l-welcome-grids">
-				<div class="col-md-5 w3ls-welcome-left">
-					<img src="{{url('csa/images/4.jpg')}}" alt="" />
-				</div>
-				<div class="col-md-7 w3ls-welcome-right">
-					<h4>Morbi vestibulum odio eget turpis aliquet dictum</h4>
-					<p>Sed tempus efficitur ex et elementum. Nulla at diam blandit, posuere dui vel, tempor arcu. Nulla varius dictum lorem, et laoreet ipsum. Nunc eget sem rutrum, dictum dolor id, rhoncus justo.
-						<span>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tempus urna at tincidunt sodales. Sed pellentesque lacinia dui in venenatis.</span>
-					</p>
-					<ul>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Aenean pulvinar augue</li>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Proin aliquam dui sollicitudin</li>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Etiam convallis gravida felis</li>
-						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Vivamus sed tempor orci</li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
+				<p>PT Catureka Suwarna Abadi is a subsidiary of PT Putra Chandra Sentosa who has been engaged in food processing and packaging machinery since 2004. With professional management, PT Catureka Suwarna Abadi has grown into one of the largest companies engaged in the food processing and packaging industry in Indonesia.
+Seeing the development of HOREKA's business in Indonesia, Catureka was built in 2015 specifically to serve the needs of the market with the maximum service and professional.</p>
 			</div>
 		</div>
 	</div>
 	<!-- //welcome -->
-	<!-- popular -->
+
+	<!-- services -->
 	<div class="popular-section-wthree jarallax">
 		<div class="agileinfo-dot">
 			<div class="container">
@@ -230,32 +193,96 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="popular-agileinfo">
 					<div class="col-md-3 popular-grid">
 						<i class="fa fa-bell" aria-hidden="true"></i>
-						<h4>Sed tempus</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+						<h4>Ability</h4>
+						<p>Ability to support excellent service programs such as: implementing effective communication, developing a motivation to foster relations both inside and outside the company.</p>
 					</div>
 					<div class="col-md-3 popular-grid">
 						<i class="fa fa-anchor" aria-hidden="true"></i>
-						<h4>Nulla varius</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+						<h4>Accountability</h4>
+						<p>Attitude towards the customer as a form of concern, to get customer satisfaction.</p>
 					</div>
 					<div class="col-md-3 popular-grid popular-grid-bottom">
 						<i class="fa fa-book" aria-hidden="true"></i>
-						<h4>Morbi tempus</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+						<h4>Attention</h4>
+						<p>Full awareness of the customer, related to the needs and desires of customers, and understand the advice and criticism.</p>
+
 					</div>
 					<div class="col-md-3 popular-grid">
 						<i class="fa fa-car" aria-hidden="true"></i>
-						<h4>Lorem ipsum</h4>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellus</p>
+						<h4>Action</h4>
+						<p>Actual activities are undertaken in providing services to customers.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- //popular -->
+	<!-- services -->
+
+	<!-- products -->
+	<div class="banner-bottom" id="indro">
+		<div class="container">
+			<div class="w3-heading-grid">
+				<h2>OUR PRODUCTS</h2>
+				<div class="agileits-border"> </div>
+				</div><br>
+			<div class="wthree-bottom-grids">
+				<div class="col-md-4 wthree-bottom-grid">
+					<div class="w3-agileits-bottom-left">
+						<div style="background-color:rgba(185, 136, 0, 0.68)" class="w3-agileits-bottom-left-text">
+							<h3>MUTU</h3>
+							<p>Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wthree-bottom-grid gbg">
+					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
+						<div style="background-color:rgba(224, 43, 43, 0.68)" class="w3-agileits-bottom-left-text">
+							<h3>FOMAC</h3>
+							<p>Fomac which focused on food processing products, Fomac has more than 400 products with a focus on the results of the best food in every production.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wthree-bottom-grid gbg">
+					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
+						<div style="background-color:rgba(4, 94, 171, 0.68)" class="w3-agileits-bottom-left-text">
+							<h3>POWERPACK</h3>
+							<p>Powerpack is a packaging machine brand that focuses on the best results of every production, precision and strength in packaging.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wthree-bottom-grid gbg">
+					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
+						<div style="background-color:rgba(199, 105, 49, 0.68)" class="w3-agileits-bottom-left-text">
+							<h3>DREMAX</h3>
+							<p>Dremax Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wthree-bottom-grid gbg">
+					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
+						<div style="background-color:rgba(51, 170, 197, 0.68)" class="w3-agileits-bottom-left-text">
+							<h3>AUTATA</h3>
+							<p>Autata Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wthree-bottom-grid gbg">
+					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
+						<div style="background-color:rgba(150, 146, 9, 0.68)" class="w3-agileits-bottom-left-text">
+							<h3>AECOE</h3>
+							<p>Aecoe is a brand of food processing machines and packaging at a very economical price within best quality.</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- products -->
+
 	<!-- news -->
-	<div class="news">
+	<!-- <div class="news">
 		<div class="container">
 			<div class="w3-heading-grid">
 					<h3>News & Events</h3>
@@ -316,9 +343,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //news -->
-		<!-- subscribe -->
+
+	<!-- subscribe -->
 	<div class="subscribe jarallax">
 		<div class="agileinfo-dot">
 			<div class="container">
@@ -338,31 +366,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //subscribe -->
 
-	<!-- banner-bottom -->
-	<div class="banner-bottom" id="indro">
+	<!-- customers -->
+	<div class="welcome">
 		<div class="container">
-			<div class="wthree-bottom-grids">
-				<div class="col-md-6 wthree-bottom-grid">
-					<div class="w3-agileits-bottom-left">
-						<div class="w3-agileits-bottom-left-text">
-							<h3>Installation Contractors</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia lectus vel neque pretium viverra id quis sapien. Praesent vel ante leo. Quisque dapibus finibus massa</p>
-						</div>
-					</div>
+			<div class="w3-heading-grid">
+				<h2>OUR CUSTOMERS</h2>
+				<div class="agileits-border"> </div><br>
+				<img style="max-width:100%;" src="{{url('csa/logocust/cust.jpg')}}" alt="">
 				</div>
-				<div class="col-md-6 wthree-bottom-grid gbg">
-					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div class="w3-agileits-bottom-left-text">
-							<h3>Commercial Remodeling</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia lectus vel neque pretium viverra id quis sapien. Praesent vel ante leo. Quisque dapibus finibus massa</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
 			</div>
-		</div>
 	</div>
-	<!-- //banner-bottom -->
+	<!-- customers -->
+
 <!-- bootstrap-pop-up -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
@@ -397,93 +412,60 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<section>
 					<div class="modal-body">
 						<img src="{{url('csa/logoproduct/mutu.jpg')}}" alt=" " class="img-responsive" />
-						<p style="text-align:justify">Mutu Indonesia adalah perusahaan yang bergerak dibidang distribusi peralatan dapur untuk katering hotel, restoran ataupun kafe. Didirikan pada tahun 2015 sebagai perusahaan komersial untuk usaha kecil maupun menengah ke atas. Berkat profesionalismenya perusahaan ini berkembang pesat dan memiliki banyak kerjasama dengan beberapa perusahaan kuliner di Indonesia.
+						<p style="text-align:justify">Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.
 							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
-	<div class="modal video-modal fade" id="myModalfomac" tabindex="-1" role="dialog" aria-labelledby="myModal">
+	<div class="modal video-modal fade" id="myModalcsa" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					FOMAC
+					MUTU
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/fomac.jpg')}}" alt=" " class="img-responsive" />
-						<p style="text-align:justify">Mutu Indonesia adalah perusahaan yang bergerak dibidang distribusi peralatan dapur untuk katering hotel, restoran ataupun kafe. Didirikan pada tahun 2015 sebagai perusahaan komersial untuk usaha kecil maupun menengah ke atas. Berkat profesionalismenya perusahaan ini berkembang pesat dan memiliki banyak kerjasama dengan beberapa perusahaan kuliner di Indonesia.
-							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
-	<div class="modal video-modal fade" id="myModalaecoe" tabindex="-1" role="dialog" aria-labelledby="myModal">
+	<div class="modal video-modal fade" id="myModalprocessing" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					Aecoe
+					Aecoe, Fomac, Dremax
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/aecoe.jpg')}}" alt=" " class="img-responsive" />
-						<p style="text-align:justify">Mutu Indonesia adalah perusahaan yang bergerak dibidang distribusi peralatan dapur untuk katering hotel, restoran ataupun kafe. Didirikan pada tahun 2015 sebagai perusahaan komersial untuk usaha kecil maupun menengah ke atas. Berkat profesionalismenya perusahaan ini berkembang pesat dan memiliki banyak kerjasama dengan beberapa perusahaan kuliner di Indonesia.
-							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
+						<img src="{{url('csa/logoproduct/processing.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">AECOE is a brand of food processing machines and packaging at a very economical price within best quality. </p>
+						<p style="text-align:justify">FOMAC which focused on food processing products, FOMAC has more than 400 products with a focus on the results of the best food in every production. FOMAC has machine that can greatly favored in every make or treating and processing foods with the best results. </p>
+						<p style="text-align:justify">DREMAX Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit. High speed is able to produce pieces that are beautiful and perfect as a master chef who has experienced many – years.</p>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
-	<div class="modal video-modal fade" id="myModaldremax" tabindex="-1" role="dialog" aria-labelledby="myModal">
+	<div class="modal video-modal fade" id="myModalpackaging" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					Dremax
+					Powerpack, Autata, Aecoe
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/dremax.jpg')}}" alt=" " class="img-responsive" />
-						<p style="text-align:justify">Mutu Indonesia adalah perusahaan yang bergerak dibidang distribusi peralatan dapur untuk katering hotel, restoran ataupun kafe. Didirikan pada tahun 2015 sebagai perusahaan komersial untuk usaha kecil maupun menengah ke atas. Berkat profesionalismenya perusahaan ini berkembang pesat dan memiliki banyak kerjasama dengan beberapa perusahaan kuliner di Indonesia.
-							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
-	<div class="modal video-modal fade" id="myModalpowerpack" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					Mutu Indonesia Kitchen and Catering Equipment
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				</div>
-				<section>
-					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/powerpack.jpg')}}" alt=" " class="img-responsive" />
-						<p style="text-align:justify">Mutu Indonesia adalah perusahaan yang bergerak dibidang distribusi peralatan dapur untuk katering hotel, restoran ataupun kafe. Didirikan pada tahun 2015 sebagai perusahaan komersial untuk usaha kecil maupun menengah ke atas. Berkat profesionalismenya perusahaan ini berkembang pesat dan memiliki banyak kerjasama dengan beberapa perusahaan kuliner di Indonesia.
-							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
-	<div class="modal video-modal fade" id="myModalautata" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					Mutu Indonesia Kitchen and Catering Equipment
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				</div>
-				<section>
-					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/autata.jpg')}}" alt=" " class="img-responsive" />
-						<p style="text-align:justify">Mutu Indonesia adalah perusahaan yang bergerak dibidang distribusi peralatan dapur untuk katering hotel, restoran ataupun kafe. Didirikan pada tahun 2015 sebagai perusahaan komersial untuk usaha kecil maupun menengah ke atas. Berkat profesionalismenya perusahaan ini berkembang pesat dan memiliki banyak kerjasama dengan beberapa perusahaan kuliner di Indonesia.
-							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
+						<img src="{{url('csa/logoproduct/packaging.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">POWERPACK is a brand of packaging machine that focuses on the best results from each production, precision in packaging and packaging strength in the.</p>
+						<p style="text-align:justify">AUTATA Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design and has a high-quality components.</p>
+						<p style="text-align:justify">AECOE is a brand of food processing machines and packaging at a very economical price within best quality.</p>
 					</div>
 				</section>
 			</div>
@@ -496,36 +478,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agile-footer-grids">
 				<div class="col-md-4 agile-footer-grid">
 					<h4>History of Us</h4>
-					<p>Pellentesque urna ex, ultricies a nunc at, pretium maximus nisi. Vestibulum non auctor diam. Mauris eget consectetur mauris. <span>Aenean leo elit, accumsan vel elit vitae, mattis ultricies lacus. Cras consectetur justo lorem, sed dictum sapien eleifend at.</span></p>
+					<p>PT Catureka Suwarna Abadi is a subsidiary of PT Putra Chandra Sentosa who has been engaged in food processing and packaging machinery since 2004. <span>With professional management, PT Catureka Suwarna Abadi has grown into one of the largest companies engaged in the food processing and packaging industry in Indonesia.</span><span>Seeing the development of HOREKA's business in Indonesia, Catureka was built in 2015 specifically to serve the needs of the market with the maximum service and professional.</span></p>
 				</div>
 				<div class="col-md-4 agile-footer-grid">
-					<h4>Twitter Posts</h4>
+					<h4>Facebook Page</h4>
 					<ul class="w3agile_footer_grid_list">
-						<li>Ut aut reiciendis voluptatibus maiores <a href="#">http://example.com</a> alias, ut aut reiciendis.
-							<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
-						<li>Itaque earum rerum hic tenetur a sapiente delectus <a href="#">http://mail.com</a> ut aut
-							voluptatibus.<span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmutuindonesia%2F&tabs=timeline&width=340&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=867605666704819" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					</ul>
 				</div>
-				<div class="col-md-2 agile-footer-grid">
-					<h4>Events</h4>
+				<div class="col-md-4 agile-footer-grid">
+					<h4>Instagram Post</h4>
 					<ul>
-						<li>12th Feb <a href="#" data-toggle="modal" data-target="#myModal">Curabitur</a></li>
-						<li>10th Mar <a href="#" data-toggle="modal" data-target="#myModal">Fusce urna</a></li>
-						<li>24th Mar <a href="#" data-toggle="modal" data-target="#myModal">Praesent</a></li>
-						<li>17th Apr <a href="#" data-toggle="modal" data-target="#myModal">Malesuada </a></li>
-						<li>09th May <a href="#" data-toggle="modal" data-target="#myModal">Cum sociis</a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 agile-footer-grid">
-					<h4>Navigation</h4>
-					<ul>
-						<li class="text"><a href="index.html">Home</a></li>
-						<li class="text"><a href="about.html">About</a></li>
-						<li class="text"><a href="icons.html">Icons</a></li>
-						<li class="text"><a href="codes.html">Typography</a></li>
-						<li class="text"><a href="gallery.html">Gallery</a></li>
-						<li class="text"><a href="contact.html">Contact</a></li>
+						<iframe src="//widgets-code.websta.me/w/934d40c13770?ck=MjAxNy0wOC0yMVQwMjo1MTozOC45OTJa" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:auto;height:328px;width:308px;"></iframe> <!-- WEBSTA WIDGETS - widgets.websta.me -->
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -536,7 +500,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- copyright -->
 	<div class="agileits-w3layouts-copyright">
 		<div class="container">
-			<p>© 2017 Interior Style. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<p>© 2017 Catureka Suwarna Abadi. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 		</div>
 	</div>
 	<!-- //copyright -->

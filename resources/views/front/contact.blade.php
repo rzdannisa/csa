@@ -1,4 +1,5 @@
 @extends('front.master')
+<title>CONTACT | PT CATUREKA SUWARNA ABADI</title>
 @section('content')
 <!-- contact -->
 	<div class="contact">
@@ -9,37 +10,38 @@
 			</div>
 			<div class="map">
 				<h4>How to find us :</h4>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48388.364704188425!2d-73.99489843077946!3d40.7120108624803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1490244727346"  style="border:0" allowfullscreen></iframe>
-			</div>
-
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.95692479412!2d106.79429331477606!3d-6.136489995556907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f61fff9f5409%3A0x438a9f7252b1cfe9!2sMutu+Indonesia!5e0!3m2!1sen!2sid!4v1502175010388" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			<div class="address">
 				<div class="col-sm-4 address-grids">
 					<h4>Address :</h4>
 					<ul>
-						<li><p>Eiusmod Tempor inc<br>
-								Broome St,<br>
-								Canada 56777</p>
+						<li><p>Rukan Bandengan Indah Blok B No. 1<br>
+								Jl. Bandengan Utara, Penjaringan<br>
+								Jakarta Utara, DKI Jakarta</p>
 						</li>
 					</ul>
 				</div>
+
 				<div class="col-sm-4 address-grids">
 					<h4>Phone :</h4>
-					<p>+2 123 456 789</p>
-					<p>+2 987 654 321</p>
+					<p>+62 21 6617005</p>
+					<p>+62 21 6617006</p>
+					<p>+62 21 6629510</p>
 				</div>
 				<div class="col-sm-4 address-grids">
 					<h4>Email :</h4>
-					<p><a href="mailto:example@email.com">mail@example.com</a></p>
+					<p><a href="#">cs@catureka.com</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 
-			<div class="contact-infom">
+			<!-- <div class="contact-infom">
 				<h4>Miscellaneous Information:</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sheets containing Lorem Ipsum passages,
 					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.It was popularised in the 1960s with the release of Letraset
 					  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			</div>
+			</div> -->
 			<div class="contact-form">
 				<h4>Contact Form</h4>
 				<form action="#" method="post">
