@@ -53,6 +53,41 @@ body{
 .agileinfo-social-grids {
     float: left;
 }
+.container-img {
+  position: relative;
+}
+
+.image-img {
+  display: block;
+  height: auto;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container-img:hover .overlay-img {
+  opacity: 1;
+}
+
+.text-img {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 /*-- social-icons --*/
 .agileinfo-social-grids{
     margin-left: 0;
@@ -113,6 +148,9 @@ body{
     letter-spacing: 1px;
     font-size: 1em;
     font-weight: 600;
+}
+.logoprod{
+  max-width: 100%;
 }
 .logo h1 a span{
 	font-size: .8em;

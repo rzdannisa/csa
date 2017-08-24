@@ -227,54 +227,97 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				<div class="agileits-border"> </div>
 				</div><br>
 			<div class="wthree-bottom-grids">
-				<div class="col-md-4 wthree-bottom-grid">
+
+				<a href="#" data-toggle="modal" data-target="#Modalmutu">
+				<div class="container-img col-md-4 wthree-bottom-grid">
 					<div class="w3-agileits-bottom-left">
-						<div style="background-color:rgba(185, 136, 0, 0.68)" class="w3-agileits-bottom-left-text">
-							<h3>MUTU</h3>
-							<p>Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.</p>
+						<div style="background-color:rgb(219, 161, 2)" class="w3-agileits-bottom-left-text">
+							<!-- <h3>MUTU</h3> -->
+							<!-- <p>Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.</p> -->
+							<img class="image-img logoprod" src="{{('csa/logoproduct/mutu.jpg')}}" alt="Mutu Indonesia">
+							<div style="background-color:rgb(219, 161, 2)" class="overlay-img col-md-4">
+							<div class="text-img">Click for more about Mutu...</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 wthree-bottom-grid gbg">
+				</a>
+
+				<a href="#" data-toggle="modal" data-target="#Modalfomac">
+				<div class="container-img col-md-4 wthree-bottom-grid gbg">
 					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div style="background-color:rgba(224, 43, 43, 0.68)" class="w3-agileits-bottom-left-text">
-							<h3>FOMAC</h3>
-							<p>Fomac which focused on food processing products, Fomac has more than 400 products with a focus on the results of the best food in every production.</p>
+						<div style="background-color:rgb(237, 27, 36)" class="w3-agileits-bottom-left-text">
+							<!-- <h3>FOMAC</h3>
+							<p>Fomac which focused on food processing products, Fomac has more than 400 products with a focus on the results of the best food in every production.</p> -->
+							<img class="image-img logoprod" src="{{('csa/logoproduct/fomac.jpg')}}" alt="Fomac">
+							<div style="background-color:rgb(237, 27, 36)" class="overlay-img">
+							<div class="text-img">Click for more about Fomac...</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 wthree-bottom-grid gbg">
+				</a>
+
+				<a href="#" data-toggle="modal" data-target="#Modalpowerpack">
+				<div class="container-img col-md-4 wthree-bottom-grid gbg">
 					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div style="background-color:rgba(4, 94, 171, 0.68)" class="w3-agileits-bottom-left-text">
-							<h3>POWERPACK</h3>
-							<p>Powerpack is a packaging machine brand that focuses on the best results of every production, precision and strength in packaging.</p>
+						<div style="background-color:rgb(9, 63, 137)" class="w3-agileits-bottom-left-text">
+							<!-- <h3>POWERPACK</h3>
+							<p>Powerpack is a packaging machine brand that focuses on the best results of every production, precision and strength in packaging.</p> -->
+							<img class="image-img logoprod" src="{{('csa/logoproduct/powerpack.jpg')}}" alt="Powerpack">
+							<div style="background-color:rgb(9, 63, 137)" class="overlay-img">
+							<div class="text-img">Click for more about Powerpack...</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 wthree-bottom-grid gbg">
+				</a>
+
+				<a href="#" data-toggle="modal" data-target="#Modaldremax">
+				<div class="container-img col-md-4 wthree-bottom-grid gbg">
 					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div style="background-color:rgba(199, 105, 49, 0.68)" class="w3-agileits-bottom-left-text">
-							<h3>DREMAX</h3>
-							<p>Dremax Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit.</p>
+						<div style="background-color:rgb(219, 88, 0)" class="w3-agileits-bottom-left-text">
+							<!-- <h3>DREMAX</h3>
+							<p>Dremax Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit.</p> -->
+							<img class="image-img logoprod" src="{{('csa/logoproduct/dremax.jpg')}}" alt="Dremax">
+							<div style="background-color:rgb(219, 88, 0)" class="overlay-img">
+							<div class="text-img">Click for more about Dremax...</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 wthree-bottom-grid gbg">
+				</a>
+
+				<a href="#" data-toggle="modal" data-target="#Modalautata">
+				<div class="container-img col-md-4 wthree-bottom-grid gbg">
 					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div style="background-color:rgba(51, 170, 197, 0.68)" class="w3-agileits-bottom-left-text">
-							<h3>AUTATA</h3>
-							<p>Autata Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design.</p>
+						<div style="background-color:rgb(216, 75, 82)" class="w3-agileits-bottom-left-text">
+							<!-- <h3>AUTATA</h3>
+							<p>Autata Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design.</p> -->
+							<img class="image-img logoprod" src="{{('csa/logoproduct/autata.jpg')}}" alt="Autata">
+							<div style="background-color:rgb(216, 75, 82)" class="overlay-img">
+							<div class="text-img">Click for more about Autata...</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 wthree-bottom-grid gbg">
+				</a>
+
+				<a href="#" data-toggle="modal" data-target="#Modalaecoe">
+				<div class="container-img col-md-4 wthree-bottom-grid gbg">
 					<div class="w3-agileits-bottom-left w3-agileits-bottom-right">
-						<div style="background-color:rgba(150, 146, 9, 0.68)" class="w3-agileits-bottom-left-text">
-							<h3>AECOE</h3>
-							<p>Aecoe is a brand of food processing machines and packaging at a very economical price within best quality.</p>
+						<div style="background-color:rgb(235, 133, 0)" class="w3-agileits-bottom-left-text">
+							<!-- <h3>AECOE</h3>
+							<p>Aecoe is a brand of food processing machines and packaging at a very economical price within best quality.</p> -->
+							<img class="image-img logoprod" src="{{('csa/logoproduct/aecoe.jpg')}}" alt="Aecoe">
+							<div style="background-color:rgb(235, 133, 0)" class="overlay-img">
+							<div class="text-img">Click for more about Aecoe...</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				</a>
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -372,7 +415,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 			<div class="w3-heading-grid">
 				<h2>OUR CUSTOMERS</h2>
 				<div class="agileits-border"> </div><br>
-				<img style="max-width:100%;" src="{{url('csa/logocust/cust.jpg')}}" alt="">
+				<img style="max-width:100%;" src="{{url('csa/logocust/customer.jpg')}}" alt="">
 				</div>
 			</div>
 	</div>
@@ -413,7 +456,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 					<div class="modal-body">
 						<img src="{{url('csa/logoproduct/mutu.jpg')}}" alt=" " class="img-responsive" />
 						<p style="text-align:justify">Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.
-							visit us at <a href="www.mutuindonesia.com">www.mutuindonesia.com</a> </p>
+							visit us at <a  href="http://mutuindonesia.com" target="_blank">www.mutuindonesia.com</a> </p>
 					</div>
 				</section>
 			</div>
@@ -471,6 +514,111 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 			</div>
 		</div>
 	</div>
+
+	<!-- modal product -->
+	<div class="modal video-modal fade" id="Modalmutu" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkmutu.jpg')}}" alt="Produk Mutu Indonesia" class="img-responsive" />
+						<p style="text-align:justify">Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.
+							visit us at <a href="http://mutuindonesia.com" target="_blank">www.mutuindonesia.com</a> </p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalfomac" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalpowerpack" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modaldremax" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalautata" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalaecoe" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- end modal product -->
 <!-- //bootstrap-pop-up -->
 	<!-- footer -->
 	<div class="footer">
