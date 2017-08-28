@@ -597,7 +597,7 @@ ul.dropdown-menu li{
 	color:#FFFFFF;
 }
 .popular-section-wthree {
-  background: url(../banner/bw.jpg) no-repeat 0px 0px;
+  background: url(../banner/serv.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -852,6 +852,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 }
 .w3-agileits-bottom-left-text:hover{
 	background:#000;
+  cursor: pointer;
 }
 .w3-agileits-bottom-left-text h3{
     color: #ffffff;
