@@ -90,11 +90,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Brands <b class="caret"></b></a>
 									<ul class="dropdown-menu">
 										<li><a href="http://mutuindonesia.com" target="_blank">MUTU</a></li>
-										<li><a href="#">FOMAC</a></li>
-                    <li><a href="#">POWERPACK</a></li>
-                    <li><a href="#">DREMAX</a></li>
-                    <li><a href="#">AUTATA</a></li>
-                    <li><a href="#">AECOE</a></li>
+										<li><a href="#" data-toggle="modal" data-target="#Modalfomac">FOMAC</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modalpowerpack">POWERPACK</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modaldremax">DREMAX</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modalautata">AUTATA</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modalaecoe">AECOE</a></li>
 									</ul>
 								</li>
 								<li><a href="{{url('contact')}}">Contact</a></li>
@@ -109,6 +109,109 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   @yield('content')
 
   <!-- footer -->
+	<div class="modal video-modal fade" id="Modalmutu" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					MUTU
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkmutu.jpg')}}" alt="Produk Mutu Indonesia" class="img-responsive" />
+						<p style="text-align:justify">MUTU is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.
+							visit us at <a href="http://mutuindonesia.com" target="_blank">www.mutuindonesia.com</a> </p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalfomac" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					FOMAC
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkfomac.jpg')}}" alt="Produk Fomac" class="img-responsive" />
+						<p style="text-align:justify">FOMAC which focused on food processing products, FOMAC has more than 400 products with a focus on the results of the best food in every production. FOMAC has machine that can greatly favored in every make or treating and processing foods with the best results.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalpowerpack" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					POWERPACK
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkpowerpack.jpg')}}" alt="Produk Powerpack" class="img-responsive" />
+						<p style="text-align:justify">POWERPACK is a brand of packaging machine that focuses on the best results from each production, precision in packaging and packaging strength in the.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modaldremax" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					DREMAX
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkdremax.jpg')}}" alt="Produk Dremax" class="img-responsive" />
+						<p style="text-align:justify">DREMAX Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit. High speed is able to produce pieces that are beautiful and perfect as a master chef who has experienced many – years.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalautata" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					AUTATA
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkautata.jpg')}}" alt="Produk Autata" class="img-responsive" />
+						<p style="text-align:justify">AUTATA Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design and has a high-quality components.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal video-modal fade" id="Modalaecoe" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					AECOE
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="{{url('csa/product/produkaecoe.jpg')}}" alt="Produk Aecoe" class="img-responsive" />
+						<p style="text-align:justify">AECOE is a brand of food processing machines and packaging at a very economical price within best quality.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
 	<div class="footer">
 		<div class="container">
 			<div class="agile-footer-grids">

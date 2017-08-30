@@ -4,10 +4,8 @@
 <title>PT CATUREKA SUWARNA ABADI</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<meta name="keywords" content="PT CATUREKA SUWARNA ABADI"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="keywords" content="Interior Style Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
 <link href="{{url('csa/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
@@ -40,7 +38,7 @@
 </head>
 <body>
 	<!-- banner -->
-	<div class="banner jarallax">
+	<div style="background: url('../csa/banner/pan.jpg')" class="banner jarallax">
 			<div class="w3layouts-header-top">
 				<div class="container">
 					<div class="w3-header-top-grids">
@@ -76,7 +74,7 @@
 								<span class="icon-bar"></span>
 							  </button>
 								 <div class="navbar-brand logo">
-									<a href="{{url('/')}}"><img class="navbar-logo" src="{{url('csa/logo/csa1.png')}}" alt=""></a>
+									<a href="{{url('/')}}"><img class="navbar-logo" src="{{url('csa/logo/csa1.png')}}" alt="PT Catureka Suwarna Abadi"></a>
 									<!-- <h1><a href="index.html">CATUREKA <span>Suwarna Abadi</span></a></h1> -->
 								</div>
 
@@ -84,18 +82,18 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							 <ul class="nav navbar-nav link-effect-4">
-							<li class="active"><a href="{{url('/')}}">Home</a> </li>
+								<li><a href="{{url('/')}}">Home</a> </li>
 								<li><a href="{{url('about')}}">About </a> </li>
 								<!-- <li><a href="gallery.html">Gallery</a></li> -->
 								<li class="dropdown">
 									<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Brands <b class="caret"></b></a>
 									<ul class="dropdown-menu">
 										<li><a href="http://mutuindonesia.com" target="_blank">MUTU</a></li>
-										<li><a href="codes.html">FOMAC</a></li>
-                    <li><a href="codes.html">POWERPACK</a></li>
-                    <li><a href="codes.html">DREMAX</a></li>
-                    <li><a href="codes.html">AUTATA</a></li>
-                    <li><a href="codes.html">AECOE</a></li>
+										<li><a href="#" data-toggle="modal" data-target="#Modalfomac">FOMAC</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modalpowerpack">POWERPACK</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modaldremax">DREMAX</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modalautata">AUTATA</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#Modalaecoe">AECOE</a></li>
 									</ul>
 								</li>
 								<li><a href="{{url('contact')}}">Contact</a></li>
@@ -357,7 +355,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				    <div class="carousel-inner">
 
 				      <div class="item active">
-				        <img src="{{('csa/kitchen/design5.jpg')}}" alt="Los Angeles" style="width:100%;">
+				        <img src="{{('csa/kitchen/design5.jpg')}}" alt="PT Catureka Suwarna Abadi | Custom Kitchen" style="width:100%;">
 				        <div class="carousel-caption">
 				          <h3>Custom Kitchen</h3>
 				          <p>We provide custom kitchen service for you.</p>
@@ -365,7 +363,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				      </div>
 
 				      <div class="item">
-				        <img src="{{('csa/kitchen/design4.jpg')}}" alt="Chicago" style="width:100%;">
+				        <img src="{{('csa/kitchen/design4.jpg')}}" alt="PT Catureka Suwarna Abadi | Custom Kitchen" style="width:100%;">
 				        <div class="carousel-caption">
 				          <h3>Custom Kitchen</h3>
 				          <p>Specialized with the best quality stainless steel equipment.</p>
@@ -381,7 +379,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				      </div>
 
 							<div class="item">
-				        <img src="{{('csa/kitchen/design3.jpg')}}" alt="Custom Kitchen" style="width:100%;">
+				        <img src="{{('csa/kitchen/design3.jpg')}}" alt="PT Catureka Suwarna Abadi | Custom Kitchen" style="width:100%;">
 				        <div class="carousel-caption">
 				          <h3>Custom Kitchen</h3>
 				          <p>We try to help realize your dream kitchen.</p>
@@ -397,7 +395,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				      </div>
 
 							<div class="item">
-				        <img src="{{('csa/kitchen/design6.jpg')}}" alt="Custom Kitchen" style="width:100%;">
+				        <img src="{{('csa/kitchen/design6.jpg')}}" alt="PT Catureka Suwarna Abadi | Custom Kitchen" style="width:100%;">
 				        <div class="carousel-caption">
 									<h3>Custom Kitchen</h3>
 								 <p>We provide custom kitchen service for you.</p>
@@ -405,7 +403,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				      </div>
 
 							<div class="item">
-				        <img src="{{('csa/kitchen/design8.jpg')}}" alt="Custom Kitchen" style="width:100%;">
+				        <img src="{{('csa/kitchen/design8.jpg')}}" alt="PT Catureka Suwarna Abadi | Custom Kitchen" style="width:100%;">
 				        <div class="carousel-caption">
 									<h3>Custom Kitchen</h3>
 				          <p>You can choose your own design, or ask us to design.</p>
@@ -532,7 +530,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 			<div class="w3-heading-grid">
 				<h2>OUR CUSTOMERS</h2>
 				<div class="agileits-border"> </div><br>
-				<img style="max-width:100%;" src="{{url('csa/logocust/customer.jpg')}}" alt="">
+				<img style="max-width:100%;" src="{{url('csa/logocust/customer.jpg')}}" alt="PT Catureka Suwarna Abadi | Customer">
 				</div>
 			</div>
 	</div>
@@ -571,7 +569,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/mutu.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/logoproduct/mutu.jpg')}}" alt="Kitchen and Catering Equipment | Mutu Indonesia" class="img-responsive" />
 						<p style="text-align:justify">Mutu is a brand of kitchen and catering equipment made of stainless steel with the best quality and safe because it is food grade.
 							visit us at <a  href="http://mutuindonesia.com" target="_blank">www.mutuindonesia.com</a> </p>
 					</div>
@@ -588,7 +586,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/logoproduct/csa.jpg')}}" alt="PT Catureka Suwarna Abadi" class="img-responsive" />
 						<p style="text-align:justify">Catureka Suwarna Abadi is a company engaged in the distribution of food processing equipment and packaging machinery. Established in 2015 as a commercial company for small businesses in North Jakarta.</p>
 					</div>
 				</section>
@@ -604,7 +602,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/processing.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/logoproduct/processing.jpg')}}" alt="Food Processing Machine Catureka" class="img-responsive" />
 						<p style="text-align:justify">AECOE is a brand of food processing machines and packaging at a very economical price within best quality. </p>
 						<p style="text-align:justify">FOMAC which focused on food processing products, FOMAC has more than 400 products with a focus on the results of the best food in every production. FOMAC has machine that can greatly favored in every make or treating and processing foods with the best results. </p>
 						<p style="text-align:justify">DREMAX Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit. High speed is able to produce pieces that are beautiful and perfect as a master chef who has experienced many – years.</p>
@@ -622,7 +620,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/logoproduct/packaging.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/logoproduct/packaging.jpg')}}" alt="Packaging Machine Catureka" class="img-responsive" />
 						<p style="text-align:justify">POWERPACK is a brand of packaging machine that focuses on the best results from each production, precision in packaging and packaging strength in the.</p>
 						<p style="text-align:justify">AUTATA Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design and has a high-quality components.</p>
 						<p style="text-align:justify">AECOE is a brand of food processing machines and packaging at a very economical price within best quality.</p>
@@ -660,7 +658,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/product/produkfomac.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/product/produkfomac.jpg')}}" alt="Produk Fomac" class="img-responsive" />
 						<p style="text-align:justify">FOMAC which focused on food processing products, FOMAC has more than 400 products with a focus on the results of the best food in every production. FOMAC has machine that can greatly favored in every make or treating and processing foods with the best results.</p>
 					</div>
 				</section>
@@ -677,7 +675,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/product/produkpowerpack.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/product/produkpowerpack.jpg')}}" alt="Produk Powerpack" class="img-responsive" />
 						<p style="text-align:justify">POWERPACK is a brand of packaging machine that focuses on the best results from each production, precision in packaging and packaging strength in the.</p>
 					</div>
 				</section>
@@ -694,7 +692,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/product/produkdremax.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/product/produkdremax.jpg')}}" alt="Produk Dremax" class="img-responsive" />
 						<p style="text-align:justify">DREMAX Engineering of the State of Japan which is designed exclusively for cutting vegetables and fruit – fruit. High speed is able to produce pieces that are beautiful and perfect as a master chef who has experienced many – years.</p>
 					</div>
 				</section>
@@ -711,7 +709,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/product/produkautata.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/product/produkautata.jpg')}}" alt="Produk Autata" class="img-responsive" />
 						<p style="text-align:justify">AUTATA Machine created to facilitate the management of plastic glass materials. Designed specifically with elegant design and has a high-quality components.</p>
 					</div>
 				</section>
@@ -728,7 +726,7 @@ Seeing the development of HOREKA's business in Indonesia, Catureka was built in 
 				</div>
 				<section>
 					<div class="modal-body">
-						<img src="{{url('csa/product/produkaecoe.jpg')}}" alt=" " class="img-responsive" />
+						<img src="{{url('csa/product/produkaecoe.jpg')}}" alt="Produk Aecoe" class="img-responsive" />
 						<p style="text-align:justify">AECOE is a brand of food processing machines and packaging at a very economical price within best quality.</p>
 					</div>
 				</section>
